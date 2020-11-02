@@ -11,9 +11,7 @@ mamba install jupyter
 python
 from notebook.auth import passwd
 password()
-```
-### 输入两次密码
-```
+#确认两次
 Enter password: 
 Verify password: 
 Out[2]: '密文（后面要用）'
@@ -41,8 +39,8 @@ esc
 jupyter notebook
 ```
 ### 本地浏览器上
-### 输入ip地址:9999
-### 输入密码
+- 输入ip地址:9999
+- 输入密码
 
 
 
