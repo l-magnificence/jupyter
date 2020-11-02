@@ -41,7 +41,7 @@ jupyter notebook
 ### 本地浏览器上
 - 输入ip地址:9999
 - 输入密码
-
+![](https://github.com/l-magnificence/jupyter/blob/main/images/20201102141736.png)
 
 
 
