@@ -42,6 +42,20 @@ jupyter notebook
 - 输入ip地址:9999
 - 输入密码
 ![](https://github.com/l-magnificence/jupyter/blob/main/images/20201102141736.png)
+### jupyter中添加conda环境
+#### 创建环境时直接加入ipykernel
+```
+conda create -n 环境名称 python=3.6 ipykernel
+```
+#### 如果创建环境时不安装ipykernel，那么在虚拟环境下创建kernel文件
+```
+conda install -n 环境名称 ipykernel
+```
+#### 激活conda环境,将环境写入notebook的kernel中
+```
+python -m ipykernel install --user --name 环境名称 --display-name "环境名称"
+```
+#### 打开notebook，kernel中有对应的环境
 
 
 
