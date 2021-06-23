@@ -10,7 +10,7 @@ mamba install jupyter
 ```
 python
 from notebook.auth import passwd
-password()
+passwd()
 #确认两次
 Enter password: 
 Verify password: 
