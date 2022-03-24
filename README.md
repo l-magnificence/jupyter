@@ -51,7 +51,7 @@ conda create -n 环境名称 python=3.6 ipykernel
 ```
 conda install -n 环境名称 ipykernel
 ```
-#### 激活conda环境,将环境写入notebook的kernel中
+#### 激活上面新安装的conda环境,将环境写入notebook的kernel中
 ```
 python -m ipykernel install --user --name 环境名称 --display-name "环境名称"
 ```
